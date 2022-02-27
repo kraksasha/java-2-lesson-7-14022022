@@ -98,5 +98,4 @@ public class Server {
     public synchronized void disconnectUser(ClientHandler handler) {
         connectedUsers.remove(handler);
     }
-
 }
